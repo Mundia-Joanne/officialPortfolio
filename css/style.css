@@ -550,6 +550,15 @@ button{
     margin: 0 10px 10px 0;
     border-radius: 20px;
 }
+.skill-item-title{
+    color: var(--main-color);
+    background-color: var(--white-alpha-25);
+    border:1px solid var(--white-alpha-40);
+    padding: 5px 15px;
+    text-transform: capitalize;
+    margin: 0 10px 10px 0;
+    border-radius: 20px;
+}
 .about-tabs{
     margin-top: 20px;
 }
@@ -631,6 +640,12 @@ button{
     margin-bottom: 0;
 }
 .about-text .timeline-item .date{
+    display: block;
+    color: var(--main-color);
+    font-weight: 400;
+    margin:0 0 10px;
+}
+.date-title{
     display: block;
     color: var(--main-color);
     font-weight: 400;
